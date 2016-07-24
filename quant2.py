@@ -1,6 +1,7 @@
 
 import pytz
 from datetime import datetime
+# pip install Zipline if you dont have it
 from Zipline.api import order, symbol, record, order_target
 from Zipline.algorithm import TradingAlgorithm
 from Zipline.utils.factory import load_bars_from_yahoo
